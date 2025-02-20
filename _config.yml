@@ -22,7 +22,6 @@ plugins:
 
 # Site settings
 url: 'https://mydomain.com'
-#baseurl: ''
 title: 'My website'
 description: 'This is my new website'
 permalink: pretty
