@@ -1,9 +1,22 @@
-# Starter kit for [Alembic](https://alembic.darn.es/)
+# Capstone Showcase Website for B01 
 
-This is a very simple starting point if you wish to use Alembic [as a Jekyll theme gem](https://alembic.darn.es/#as-a-jekyll-theme) or as a [GitHub Pages remote theme](https://github.com/daviddarnes/alembic-kit/tree/remote-theme) (see `remote-theme` branch).
+This repository is the static website for the UCSD DSC Capstone project 2024-2025.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
+## Github Pages Website
+[Mitigating/Grading Misinformation and Disinformation with Hybrid Model AI](https://eskimosun.github.io/Capstone-2025-GenAI-For-Good-Website/)
 
-or
 
-**[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
+## Usage
+
+To use this theme, simply add the necessary configuration to your Jekyll site and start building your site with the provided templates and styles.
+
+To run the website locally, run:
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+This will launch the website. The `_config.yml` file sets the website configuration. 
+
+Read [the original documentation](https://github.com/daviddarnes/alembic) for this Jekyll template. Add images in `assets/images`.
