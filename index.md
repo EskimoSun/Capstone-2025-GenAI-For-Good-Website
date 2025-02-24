@@ -1,5 +1,5 @@
 ---
-title: About the project
+title: GenAI For Good
 feature_image: "https://picsum.photos/1300/400?image=989"
 feature_text: |
   # Mitigating/Grading Misinformation and Disinformation with Hybrid Model AI
@@ -9,6 +9,7 @@ feature_text: |
   <small><sup>*</sup>indicates equal contribution</small>
 ---
 
+## About the project
 A brief introduction and abstract of our project
 
 {% include button.html text="Codebase" icon="github" link="https://github.com/ericsun153/Veracity-Machine-and-Mitigation-Strategies" color="#0366d6" %} {% include button.html text="Report 📑" link="" color="#f68140" %} {% include button.html text="Poster 📈" link="" color="#0d94e7" %} {% include button.html text="Demo ▶️" link="" %}

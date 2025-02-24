@@ -1,6 +1,7 @@
 # Capstone Showcase Website for B01 
 
 This repository is the static website for the UCSD DSC Capstone project 2024-2025.
+Project owned by David Sun, Eric Sun, Eric Gu. 
 
 ## Github Pages Website
 [Mitigating/Grading Misinformation and Disinformation with Hybrid Model AI](https://eskimosun.github.io/Capstone-2025-GenAI-For-Good-Website/)

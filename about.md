@@ -1,29 +1,33 @@
 ---
-title: About this project
+title: About This Project
+feature_image: "https://datascience.ucsd.edu/wp-content/uploads/2024/05/HDSI_Drone-Aerial.jpg"
+markdown: false
 ---
 
-This product is created during the UCSD Capstone Project 2024-2025, under the advisory of Dr. Ali Arsanjani. <br>
-## About Us
-<div>
-  <h3>David Sun</h3>
-  <div style="display:flex;">
-    <img src="/assets/images/David.png" alt="David Sun" width="128" height="128" style="margin:0 20px 0 0;border-radius: 50%;"/>
-    <p>{% include icon.html id="email" title="email" %} Email: dasun@ucsd.edu</p>
-  </div>
+<p>This product is created during the UCSD Capstone Project 2024-2025, under the advisory of Dr. Ali Arsanjani.</p>
+
+<h2>About Us</h2>
+<div style="display:flex; margin: 0 0 20px 0;">
+    <img src="/assets/images/David.png" alt="David Sun" style="width:128px; height:128px; margin:20px 20px 0 0;border-radius: 50%;"/>
+    <div>
+        <h3 style="color:#05bf85;">David Sun</h3>
+        <p>{% include icon.html id="email" title="email" %} Email: dasun@ucsd.edu</p>
+        <p>Self bio</p>
+    </div>
 </div>
 
-<div>
-  <h3>Eric Sun</h3>
-  <div style="display:flex;">
-    <img src="" alt="Eric Sun" width="128" height="128" style="margin:0 20px 0 0;border-radius: 50%;"/>
-    <p>{% include icon.html id="email" title="email" %} Email: </p>
-  </div>
+<div style="display:flex; margin: 0 0 20px 0;">
+    <img src="" alt="Eric Sun" style="width:128px; height:128px; margin:20px 20px 0 0;border-radius: 50%;"/>
+    <div>
+        <h3 style="color:#05bf85;">Eric Sun</h3>
+        <p>{% include icon.html id="email" title="email" %} Email: </p>
+    </div>
 </div>
 
-<div>
-  <h3>Eric Gu</h3>
-  <div style="display:flex;">
-    <img src="" alt="Eric Gu" width="128" height="128" style="margin:0 20px 0 0;border-radius: 50%;"/>
-    <p>{% include icon.html id="email" title="email" %} Email: </p>
-  </div>
+<div style="display:flex; margin: 0 0 20px 0;">
+    <img src="" alt="Eric Gu" style="width:128px; height:128px; margin:20px 20px 0 0;border-radius: 50%;"/>
+    <div>
+        <h3 style="color:#05bf85;">Eric Gu</h3>
+        <p>{% include icon.html id="email" title="email" %} Email: </p>
+    </div>
 </div>
