@@ -32,7 +32,7 @@ Our veracity engine uses a suite of latest tools and techniques to power the ana
 ## Results
 
 ### Prediction / Generative / Hybrid
-{% include figure.html image="assets/images/pred-gen-hyb-results.png" caption="Table 1. predictive vs generative vs hybrid accuracy" width="800"%}
+{% include figure.html image="/assets/images/pred-gen-hyb-results.png" caption="Table 1. predictive vs generative vs hybrid accuracy" width="800"%}
 
 ### Prompts Constructed
 | Normal Prompting | Chain of Thought | Fractal Chain of Thought |
