@@ -25,9 +25,9 @@ markdown: false
 </div>
 
 <div style="display:flex; margin: 0 0 20px 0;">
-    <img src="" alt="Eric Gu" style="width:128px; height:128px; margin:20px 20px 0 0;border-radius: 50%;"/>
+    <img src="{{ site.baseurl }}/assets/images/Eric.png" alt="Eric Gu" style="width:128px; height:128px; margin:20px 20px 0 0;border-radius: 50%;"/>
     <div>
         <h3 style="color:#05bf85;">Eric Gu</h3>
-        <p>{% include icon.html id="email" title="email" %} Email: </p>
+        <p>{% include icon.html id="email" title="email" %} Email: ergu@ucsd.edu </p>
     </div>
 </div>
