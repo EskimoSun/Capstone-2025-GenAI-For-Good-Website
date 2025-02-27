@@ -27,7 +27,10 @@ Our veracity engine uses a suite of latest tools and techniques to power the ana
 - Retrieval-augmented Generation (RAG) + Google Search + Function Calling: suite of proven methods that enhance reasoning and fact-checking capability for specific domains. 
 
 ## Roadmap
-![]("/assets/images/Roadmap.png")
+<figure>
+  <img src="assets/images/Roadmap.png" alt="">
+  <figcaption>Roadmap of our project</figcaption>
+</figure>
 
 ## Dataset
 **Liar PLUS**
@@ -77,7 +80,10 @@ Update score at each iteration with the usage of function calling.
 ### Prediction / Generative / Hybrid
 
 Precision & Recall Result:
-{% include figure.html image="/assets/images/pred-gen-hyb-results.png" caption="Table 1. predictive vs generative vs hybrid accuracy" width="800"%}
+<figure>
+  <img src="assets/images/pred-gen-hyb-results.png" alt="">
+  <figcaption>Table 1. predictive vs generative vs hybrid accuracy</figcaption>
+</figure>
 
 Prompting Comparison Result: [Prompting Comparison Link](https://docs.google.com/spreadsheets/d/1guFblrl9GR_bjLHH0QNgBTliiRjFmDHx/edit?gid=1613470116#gid=1613470116)
 
