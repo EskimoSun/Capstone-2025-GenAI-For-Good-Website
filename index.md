@@ -32,10 +32,28 @@ Our veracity engine uses a suite of latest tools and techniques to power the ana
   <figcaption>Figure 1. Roadmap of our project</figcaption>
 </figure>
 
-## Dataset
-**Liar PLUS**
+## Datasets
+[**Liar PLUS**](https://github.com/Tariq60/LIAR-PLUS): Integration with Predictive AI
 
-**Politifact**
+
+
+- Feature Extraction: The predictive AI can analyze the text data from LIAR-PLUS to extract features that are relevant to determining the truthfulness of statements. This could include linguistic features (like the complexity of language used), semantic features (like the presence of certain key phrases or concepts), and metadata (like the speaker's profile).
+
+- Contextual Analysis: The detailed justifications provided in LIAR-PLUS allow the predictive AI to learn not just whether a statement is true or false, but why it was categorized as such. This deepens the model’s understanding, enabling it to better handle nuanced or borderline cases.
+
+- Training Data: LIAR-PLUS serves as training data for the predictive AI (random forest model). The rich, annotated dataset helps in building robust models that are trained on both the statement and its contextual backing, improving the accuracy of predictions.
+
+[**Politifact & Snopes**](https://www.politifact.com/): Integration with Generative AI
+
+- Use of External Datasets: We enhance the performance and reliability of our veracity machine by leveraging external datasets extracted through web scraping techniques. We obtain data from platforms like PolitiFact and Snopes.com, which provide extensive information on the latest news stories and their truthfulness, as assessed by expert fact-checkers.
+
+- Integration of Ground Truth Labels: These datasets offer crucial ground truth labels, including "True," "Half-True," and "False," along with detailed explanations that elucidate the rationale behind these assessments. By integrating these expert-verified annotations, we ensure that our model is trained and evaluated against high-quality, up-to-date information.
+
+- Expansion of Data Extraction: We are currently expanding our approach to include not only the truthfulness labels but also the accompanying explanations for each verdict. These explanations provide essential context for understanding why content was classified in a particular way, delivering valuable insights into the underlying reasoning.
+
+- Incorporation into System Prompts: Our plan is to incorporate these explanations into the system's prompts, allowing the AI to generate more informed and contextually relevant outputs. This enhancement will enable the veracity machine to provide users not only with accurate classifications but also the reasoning behind these classifications.
+
+- Enhancing Transparency and Trust: By iteratively refining this approach, we aim to foster greater transparency and user trust. Our goal is to create a system capable of addressing the complexities of misinformation with both accuracy and depth.
 
 ## Methodology
 **Predictive AI**
