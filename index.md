@@ -35,8 +35,6 @@ Our veracity engine uses a suite of latest tools and techniques to power the ana
 ## Datasets
 [**Liar PLUS**](https://github.com/Tariq60/LIAR-PLUS): Integration with Predictive AI
 
-
-
 - Feature Extraction: The predictive AI can analyze the text data from LIAR-PLUS to extract features that are relevant to determining the truthfulness of statements. This could include linguistic features (like the complexity of language used), semantic features (like the presence of certain key phrases or concepts), and metadata (like the speaker's profile).
 
 - Contextual Analysis: The detailed justifications provided in LIAR-PLUS allow the predictive AI to learn not just whether a statement is true or false, but why it was categorized as such. This deepens the model’s understanding, enabling it to better handle nuanced or borderline cases.
