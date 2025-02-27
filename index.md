@@ -29,7 +29,7 @@ Our veracity engine uses a suite of latest tools and techniques to power the ana
 ## Roadmap
 <figure>
   <img src="assets/images/Roadmap.png" alt="">
-  <figcaption>Roadmap of our project</figcaption>
+  <figcaption>Figure 1. Roadmap of our project</figcaption>
 </figure>
 
 ## Dataset
