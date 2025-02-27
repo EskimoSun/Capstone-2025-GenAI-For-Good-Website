@@ -3,8 +3,8 @@ title: GenAI For Good
 feature_image: "https://picsum.photos/1300/400?image=989"
 feature_text: |
   # Mitigating/Grading Misinformation and Disinformation with Hybrid Model AI
-  By [David Sun](https://www.linkedin.com/in/david-sun-315640233)<sup>*</sup> [Eric Sun]()<sup>*</sup> [Eric Gu](https://www.linkedin.com/in/eric-gu433/)<sup>*</sup> from University of California San Diego <br>
-  Advisor: [Ali Arsanjani]() from Google Cloud
+  By [David Sun](https://www.linkedin.com/in/david-sun-315640233)<sup>*</sup> [Eric Sun](https://www.linkedin.com/in/zihao-sun-309b7a233/)<sup>*</sup> [Eric Gu](https://www.linkedin.com/in/eric-gu433/)<sup>*</sup> from University of California San Diego <br>
+  Advisor: [Ali Arsanjani](https://www.linkedin.com/in/ali-arsanjani/) from Google Cloud
 
   <small><sup>*</sup>indicates equal contribution</small>
 ---
