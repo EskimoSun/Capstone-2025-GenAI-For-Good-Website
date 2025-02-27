@@ -27,8 +27,7 @@ Our veracity engine uses a suite of latest tools and techniques to power the ana
 - Retrieval-augmented Generation (RAG) + Google Search + Function Calling: suite of proven methods that enhance reasoning and fact-checking capability for specific domains. 
 
 ## Roadmap
-{% include figure.html image="/assets/images/Roadmap.png" width="800"%}
-
+![]("/assets/images/Roadmap.png")
 
 ## Dataset
 **Liar PLUS**
