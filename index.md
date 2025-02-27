@@ -30,6 +30,11 @@ Our veracity engine uses a suite of latest tools and techniques to power the ana
 {% include figure.html image="/assets/images/Roadmap.png" width="800"%}
 
 
+## Dataset
+**Liar PLUS**
+
+**Politifact**
+
 ## Methodology
 **Predictive AI**
 
