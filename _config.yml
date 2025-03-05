@@ -25,7 +25,7 @@ url: 'https://mydomain.com'
 title: 'GenAI For Good'
 description: 'UCSD Data Science Capstone 2025'
 permalink: pretty
-logo: "/assets/images/logo2.png"
+logo: "/assets/images/logo3.png"
 
 # Pagination
 paginate: 5
@@ -48,11 +48,11 @@ navigation_footer:
 # Collections
 collections:
   posts:
-    title: Posts
+    title: Example Outputs From Our Project
     output: true
-    description: "My thoughts and ideas"
+    description: "Through testing, we have generated a number of outputs that we believe are valuable for showcasing the capabilities of our model. Here are some examples that best demonstrate the details between different prompting settings."
     feature_text: |
-      Example outputs from our model
+      # Examples
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # Collection settings
