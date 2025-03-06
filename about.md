@@ -29,5 +29,6 @@ markdown: false
     <div>
         <h3 style="color:#05bf85;">Eric Gu</h3>
         <p>{% include icon.html id="email" title="email" %} Email: ergu@ucsd.edu </p>
+        <p>Eric Gu is a fourth-year undergraduate student at UCSD (2025), dual majoring in Data Science and Probability & Statistics. </p>
     </div>
 </div>
