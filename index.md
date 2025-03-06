@@ -109,11 +109,96 @@ logical and factually consistent chains are prioritized.
 
 ### Prediction / Generative / Hybrid
 
+Predictive Performance on Liar PLUS Dataset:
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 15px;" border="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr style="background-color: #f2f2f2; text-align: left;">
+            <th style="border: 1px solid black; padding: 10px;">Model Description</th>
+            <th style="border: 1px solid black; padding: 10px;">Score (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">BERT Embedding Model</td>
+            <td style="border: 1px solid black; padding: 10px;">43.7</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">XGBoost/LightGBM (Boosting algorithm)</td>
+            <td style="border: 1px solid black; padding: 10px;">33.1</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">Random Forest Classifier (Bagging algorithm)</td>
+            <td style="border: 1px solid black; padding: 10px;">67.8</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">Sentiment Analysis (TF-IDF)</td>
+            <td style="border: 1px solid black; padding: 10px;">45.9</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">Word2Vec</td>
+            <td style="border: 1px solid black; padding: 10px;">55.2</td>
+        </tr>
+    </tbody>
+</table>
+
+<p style="font-size: 18px; text-align: center; margin-top: 10px;">
+    Table 1. Predictive Performance on Liar PLUS dataset
+</p>
+
+
+
+Overall Model Performance:
+<table style="border-collapse: collapse; width: 100%;" border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid black;">Model Description</th>
+            <th style="border: 1px solid black;">Score (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black;">Baseline (Feeding straight into Gemini Flash 2.0)</td>
+            <td style="border: 1px solid black;">19</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Hybrid (Random Forest + Gemini)</td>
+            <td style="border: 1px solid black;">34.3</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Hybrid + RAG</td>
+            <td style="border: 1px solid black;">40</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Hybrid + RAG + Web Search</td>
+            <td style="border: 1px solid black;">56.9</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Hybrid + RAG + Web Search + FCOT Prompting</td>
+            <td style="border: 1px solid black;">67.2</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Hybrid (50/50) + RAG + Web Search + FCOT Prompting + Function Calling</td>
+            <td style="border: 1px solid black;">65.3</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">Hybrid (70/30) + RAG + Web Search + FCOT Prompting + Function Calling</td>
+            <td style="border: 1px solid black;">85.1</td>
+        </tr>
+    </tbody>
+</table>
+<p style="font-size: 18px; text-align: center; margin-top: 10px;">
+    Table 2. Overall Model Performance 
+</p>
+
+
+
 Precision & Recall Result:
 <figure>
   <img src="assets/images/pred-gen-hyb-results.png" alt="">
-  <figcaption>Table 1. predictive vs generative vs hybrid accuracy</figcaption>
 </figure>
+<p style="font-size: 18px; text-align: center; margin-top: 10px;">
+    Table 3. predictive vs generative vs hybrid accuracy
+</p>
 
 Prompting Comparison Result: [Prompting Comparison Link](https://docs.google.com/spreadsheets/d/1guFblrl9GR_bjLHH0QNgBTliiRjFmDHx/edit?gid=1613470116#gid=1613470116)
 
